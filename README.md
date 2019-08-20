@@ -1,6 +1,6 @@
 # Data-visualization-of-crime-rate-in-India
 
-**Storytelling  Data visualization with intensive explanation and exploration. reveal hidden patterns through merging unexpected dataset to find reasonable relationship could figure out the solution** 
+**Storytelling  Data visualization with intensive explanation and exploration. reveal hidden patterns through merging unexpected dataset to find reasonable relationship could find out the solution** 
 
 **Introduction and Motivation**
 
@@ -25,23 +25,31 @@ The datasets published by government of India on data platform portal from 2001 
 
 **Process**
 
-     All 7 datasets has been imported from kaggle and all the graphs drawn with more than one dataset. Python used as a cleaning and visualization tool. For data preparation, some of the data cleansing done in order to merge the datasets such as matching the state names and correcting other typo. In addition, some of the data transformation done such aggregating a rows based in some criteria in order to reduce variables to more meaningful ones, or changing columns type for merging process. For data combining, some of the graphs combine a dataset in order to expand the time frame, other combination was for different sources in order to figure out some of the relationship. For data visualization, _Plotly and Dash library in python used_ in order to build a separate graphs or the dashboard. Each graph type chosen based on the needed massage to be delivered. Mainly, the purpose is to have better understanding of crime nature and draw out of it a conclusion that help a government in reducing major crime, to achieve the goal the report will introduce some of the sub questions that need an answers:
+All 7 datasets has been imported from kaggle and all the graphs drawn with more than one dataset. Python used as a cleaning and visualization tool. For data preparation, some of the data cleansing done in order to merge the datasets such as matching the state names and correcting other typo. In addition, some of the data transformation done such aggregating a rows based in some criteria in order to reduce variables to more meaningful ones, or changing columns type for merging process. For data combining, some of the graphs combine a dataset in order to expand the time frame, other combination was for different sources in order to figure out some of the relationship. For data visualization, _Plotly and Dash library in python used_ in order to build a separate graphs or the dashboard. Each graph type chosen based on the needed massage to be delivered. Mainly, the purpose is to have better understanding of crime nature and draw out of it a conclusion that help a government in reducing major crime, to achieve the goal the report will introduce some of the sub questions that need an answers:
 
 
-> 
-**1.	From 2001 to 2013 , what is the volume of different crime types in each state and what is the most crime occurred in India?**
+
+> **1.	From 2001 to 2013 , what is the volume of different crime types in each state and what is the most crime occurred in India?**
+
 
 ![1v](https://user-images.githubusercontent.com/48627041/63384792-491bee00-c3a8-11e9-9505-4674fcabf0d8.png)
 
 The main point is to find the bottleneck of a crime by capturing the highest crime type across all states and to answer the question I got two datasets contain all states with 30 crime types that grouped into 10 types based on their similar nature. The reason of choosing stacked bar chart is the need of comparison and producing a visualization with much less clutter. Also, it significantly reduce the cognitive load and simply showing the number of total crime for all state across 13 years with different crime types. As a powerful long term strategy adopted by government, understanding the major crime and try to figure out the factors affect it will reduce overall crime in the country. Apparently, theft is the highest crime since it capture most of the bars, also when it removed from chart overall range number of crime will reduced by 1.3M which indicate a dramatic effect caused by theft. Next we need to narrow down and make further investigation of theft crime. 
 
+
+
 > **2.	 From 2001 to 2013, what are the dangerous places in each state regarding theft accidents?** 
+
+
 
 ![2v](https://user-images.githubusercontent.com/48627041/63384895-81233100-c3a8-11e9-86cd-a10985144e49.png)
 
 The question answered by merging another two datasets, and merging different type of theft crimes into one category. The reason of choosing Heat map is to show the intensity of crime in each state for particular places. The above graph helps government In drawing a plan by directing police force into most dangers places. Furthermore, some of social awareness will facilitate in reducing theft crime by being more aware and avoid handling or keeping expensive things in these places. We can recognize that commercial establishment and residential premises got highest crime accidents. A surprising result appear in high-way category in Uttar Pradesh state which need more attention about the activities going there. Next we need to understand different factors connected with theft crime in a state perspective.
 
+
+
 >  **3.	From 2001 to 2012, what are the factors that could help each state based on its crime history in drawing a plan as a short term strategy contribute to government long plan for reducing theft crime?**
+
 
 
 ![3v](https://user-images.githubusercontent.com/48627041/63384954-aa43c180-c3a8-11e9-9ee3-de8284e92691.png)
