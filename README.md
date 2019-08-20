@@ -2,6 +2,9 @@
 
 **Storytelling  Data visualization with intensive explanation and exploration. reveal hidden patterns through merging unexpected dataset to find reasonable relationship could find out the solution** 
 
+_Note : all graphs are interactive and could be shown clearly in the  notebook_
+
+
 **Introduction and Motivation**
 
 The main role of visualization is communicating the complex insights that is hidden inside the data. The core driven of this report is my passion of discovering and understanding how can we make our world more peaceful, also analyzing activities related to human behavior. Crime in India is an interesting topic for exploration for many reasons. One is India has an open culture with different demographic characteristic which make crime exploration more challenging. Another reason is the availability of huge publicly available datasets for investigation. The main question of the report is, from 2001 to 2013 in a crime history 
@@ -14,13 +17,13 @@ The main role of visualization is communicating the complex insights that is hid
 
 The datasets published by government of India on data platform portal from 2001 to 2013. Additionally, more than 75 datasets in csv format collected by Rajanand Ilangovan on kaggle [1], all of these files has been investigated and 7 datasets used to build a visualization:
 
-1-	District wise crimes committed 2001 to 2012
-2-	District wise crimes committed 2013
-3-	Case reported and value of property taken away by place of occurrence 2011 to 2012
-4-	Case reported and value of property taken away by place of occurrence 2013
-5-	Juvenile apprehended state
-6-	Police strength actual and sanctioned
-7-	Property stolen and recovered
+1. District wise crimes committed 2001 to 2012
+2. District wise crimes committed 2013
+3. Case reported and value of property taken away by place of occurrence 2011 to 2012
+4. Case reported and value of property taken away by place of occurrence 2013
+5. Juvenile apprehended state
+6. Police strength actual and sanctioned, 
+7. Property stolen and recovered
 
 
 **Process**
